@@ -33,7 +33,7 @@ nav {
 
 #hero_img {
   color: transparent;
-  background-image: url(../images/NFT_back.png);
+  background-image: url(/images/NFT_back.png);
   border-radius: 10px;
   background-size: cover;
   height: 300px;
@@ -215,6 +215,7 @@ footer .copyright {
   width: 100%;
   height: 300px;
   border-radius: 10px;
+  margin-top: 30px;
 }
 
 #aboutus-section02 {
@@ -227,7 +228,7 @@ footer .copyright {
 }
 
 .aboutus-parrafo01 {
-  color: #dfdfdf;
+  color: #595957;
   font-size: 20px;
   margin: 0;
 }
