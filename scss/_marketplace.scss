@@ -1,0 +1,106 @@
+/* Estilos para Marketplace */
+
+#main_marketplace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: auto;
+    background-color: $color4;
+}
+
+.DAtitle02{
+    padding-left: 40px;
+}
+
+.welcome{
+    color: $color3;
+}
+
+h6 {
+    color: $color3;
+    font-size: 60px;
+    z-index: -10;
+    background-color: $color4;
+}
+
+#section_market{
+    background-color: $color4;
+    display:inline-block;
+    width: 100%;
+}
+
+
+#recuadro-mk01 {
+    background-color: $color1;
+    margin: 10px;
+    border-radius: 25px;
+    height: 350px;
+    width: 80%;
+    position: relative;
+    left: 100px;
+}
+
+#recuadro-mk02 {
+    background-color: $color2;
+    margin: 10px;
+    border-radius: 25px;
+    height: 350px;
+    width: 80%;
+    position: relative;
+    left: 100px;
+}
+
+.video-mk01 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 12%;
+    border-radius: 20px;
+}
+
+.video-mk02 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 37%;
+    border-radius: 20px;
+}
+
+.video-mk03 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 62%;
+    border-radius: 20px;
+}
+
+.video-mk04 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 12%;
+    border-radius: 20px;
+}
+
+.video-mk05 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 37%;
+    border-radius: 20px;
+}
+
+.video-mk06 {
+    position: absolute;
+    height: 300px;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 62%;
+    border-radius: 20px;
+}

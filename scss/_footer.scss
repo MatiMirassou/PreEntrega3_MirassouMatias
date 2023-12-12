@@ -1,0 +1,54 @@
+/* Estilos para Footer */
+
+footer {
+    padding:20px 0;
+    margin: 20px 0 0 0;
+    background-color:$color5;
+    display: block;
+    text-align: center;
+    .followus{
+        text-align:center;
+        color: $color4;
+        font-weight: 800;
+    }
+    ul {
+        list-style:none;
+        text-align:center;
+        font-size:18px;
+        color: $color4;
+        a {
+            color:inherit;
+            text-decoration:none;
+        }
+    }
+    li {
+        padding-right: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+    div a{
+        margin: 10px;
+        font-size:24px;
+    }
+    i{
+        text-align: center;
+        color: $color4;
+        left: 300px;
+        &:hover{
+        color: $color1;
+        }
+    }
+    .copyright {
+        margin-top:15px;
+        text-align:center;
+        font-size:13px;
+        color:$color4;
+        margin-bottom:0;
+    }
+}
+
+@media (max-width: 991px) {
+    footer ul{
+        font-size: 12px;
+    }
+}
