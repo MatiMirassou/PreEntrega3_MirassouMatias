@@ -247,20 +247,22 @@ footer .copyright {
   color: #dfdfdf;
   font-size: 48px;
   text-align: center;
+  justify-self: center;
   text-decoration: none;
   font-family: pixeled, Geneva, Tahoma, sans-serif;
+  margin: 20px;
 }
 
 #main_artist {
   background-color: #dfdfdf;
-  margin-top: 30px;
   border-radius: 10px;
   text-align: center;
+  margin-top: 30px;
 }
 #main_artist img {
-  height: 200px;
-  width: auto;
-  margin: 20px 0px 5px 10px;
+  height: auto;
+  width: 60%;
+  margin: 0x 0px 5px 10px;
 }
 #main_artist h3 {
   color: #595957;
@@ -271,7 +273,7 @@ footer .copyright {
 
 #artist-section01 {
   width: 100%;
-  height: 400px;
+  margin: 20px;
 }
 #artist-section01 h5 {
   color: #dfdfdf;
@@ -284,14 +286,12 @@ footer .copyright {
 #artist-section01 img {
   height: 350px;
   width: auto;
-  padding-top: 10%;
 }
 
 #artist-section02 {
   background-color: #dfdfdf;
   border-radius: 10px;
   width: 100%;
-  height: 400px;
 }
 #artist-section02 h5 {
   color: #595957;
@@ -305,12 +305,11 @@ footer .copyright {
 #artist-section02 video {
   height: 350px;
   width: auto;
-  padding-top: 10%;
+  padding: 10px 0 10px 0;
 }
 
 #artist-section03 {
   width: 100%;
-  height: 400px;
 }
 #artist-section03 h5 {
   color: #dfdfdf;
@@ -323,18 +322,38 @@ footer .copyright {
 #artist-section03 video {
   height: 350px;
   width: auto;
-  padding-top: 10%;
+  padding: 10px 0 10px 0;
 }
 
 @media (max-width: 991px) {
+  #main_artist h3 {
+    font-size: 38px;
+  }
+  #main_artist img {
+    width: 60%;
+  }
+  #artist_title {
+    font-size: 30px;
+    margin: 0px;
+  }
   #artist-section03 video {
     width: 80%;
   }
   #artist-section02 video {
+    height: 350px;
     width: 80%;
   }
   #artist-section01 img {
+    height: 350px;
+    width: auto;
+    margin: 10px 0 10px 0;
+  }
+}
+@media (max-width: 375px) {
+  #artist-section01 img {
+    height: auto;
     width: 80%;
+    margin: 10px 0 10px 0;
   }
 }
 /* Estilos para Marketplace */
