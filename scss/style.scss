@@ -69,10 +69,12 @@ h1{
     line-height: 1.5;
     color: $color4;
     text-shadow: 0 2px 5px black;
-    font-size: 48px;
+    font-size: 24px;
 }
 
-@media (max-width: 991px) {
+/*media querrie - mobile first*/
+
+@media only screen and (min-width: 992px){
     h1{
         font-size: 36px;
     }

@@ -1,106 +1,82 @@
 /* Estilos para Marketplace */
 
-#main_marketplace{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: auto;
+#body-mk{
     background-color: $color4;
 }
 
-.DAtitle02{
-    padding-left: 40px;
+#main_marketplace{
+    width: auto;
+        img{
+            width: 50%;
+        }
+        h3{
+            color: $color3;
+            font-size: 30px;
+}
 }
 
-.welcome{
-    color: $color3;
-}
 
 h6 {
     color: $color3;
     font-size: 60px;
-    z-index: -10;
-    background-color: $color4;
+    margin: 20px;
 }
 
-#section_market{
-    background-color: $color4;
-    display:inline-block;
-    width: 100%;
-}
-
-
-#recuadro-mk01 {
+#section01_market{
     background-color: $color1;
-    margin: 10px;
-    border-radius: 25px;
-    height: 350px;
-    width: 80%;
-    position: relative;
-    left: 100px;
+    width: 90%;
+    border-radius: 20px;
+    .video-mk {
+        height: 300px;
+        width: auto;
+        border-radius: 20px;
+        margin: 20px;
+    }
 }
 
-#recuadro-mk02 {
+#section02_market{
     background-color: $color2;
-    margin: 10px;
-    border-radius: 25px;
-    height: 350px;
-    width: 80%;
-    position: relative;
-    left: 100px;
+    width: 90%;
+    border-radius: 20px;
+    .video-mk {
+        height: 300px;
+        width: auto;
+        margin: 20px;
+        border-radius: 20px;
+}
 }
 
-.video-mk01 {
-    position: absolute;
-    height: 300px;
-    z-index: 10;
-    margin-top: 2%;
-    margin-left: 12%;
-    border-radius: 20px;
+@media (max-width: 401px){
+    #section01_market{
+        .video-mk{
+            height: auto;
+            width: 80%;
+        }
+    }
+    #section02_market{
+        .video-mk{
+            height: auto;
+            width: 80%;
+        }
+    }
+    h6{
+        font-size: 30px;
+    }
 }
 
-.video-mk02 {
-    position: absolute;
-    height: 300px;
-    z-index: 10;
-    margin-top: 2%;
-    margin-left: 37%;
-    border-radius: 20px;
+
+/*media querrie - mobile first*/
+
+@media only screen and (min-width: 992px){
+    #main_marketplace{
+        width: auto;
+        background-color: $color4;
+        img{
+            width: 500px;
+        }
+        h3{
+            font-size: 48px;
+        }
+    }
 }
 
-.video-mk03 {
-    position: absolute;
-    height: 300px;
-    z-index: 10;
-    margin-top: 2%;
-    margin-left: 62%;
-    border-radius: 20px;
-}
-
-.video-mk04 {
-    position: absolute;
-    height: 300px;
-    z-index: 10;
-    margin-top: 2%;
-    margin-left: 12%;
-    border-radius: 20px;
-}
-
-.video-mk05 {
-    position: absolute;
-    height: 300px;
-    z-index: 10;
-    margin-top: 2%;
-    margin-left: 37%;
-    border-radius: 20px;
-}
-
-.video-mk06 {
-    position: absolute;
-    height: 300px;
-    z-index: 10;
-    margin-top: 2%;
-    margin-left: 62%;
-    border-radius: 20px;
-}

@@ -50,10 +50,11 @@ h1 {
   line-height: 1.5;
   color: #dfdfdf;
   text-shadow: 0 2px 5px black;
-  font-size: 48px;
+  font-size: 24px;
 }
 
-@media (max-width: 991px) {
+/*media querrie - mobile first*/
+@media only screen and (min-width: 992px) {
   h1 {
     font-size: 36px;
   }
@@ -273,7 +274,7 @@ footer .copyright {
 
 #artist-section01 {
   width: 100%;
-  margin: 20px;
+  margin: 10px 0 10px 0;
 }
 #artist-section01 h5 {
   color: #dfdfdf;
@@ -357,110 +358,77 @@ footer .copyright {
   }
 }
 /* Estilos para Marketplace */
-#main_marketplace {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  width: auto;
+#body-mk {
   background-color: #dfdfdf;
 }
 
-.DAtitle02 {
-  padding-left: 40px;
+#main_marketplace {
+  width: auto;
 }
-
-.welcome {
+#main_marketplace img {
+  width: 50%;
+}
+#main_marketplace h3 {
   color: #595957;
+  font-size: 30px;
 }
 
 h6 {
   color: #595957;
   font-size: 60px;
-  z-index: -10;
-  background-color: #dfdfdf;
+  margin: 20px;
 }
 
-#section_market {
-  background-color: #dfdfdf;
-  display: inline-block;
-  width: 100%;
-}
-
-#recuadro-mk01 {
+#section01_market {
   background-color: #b77195;
-  margin: 10px;
-  border-radius: 25px;
-  height: 350px;
-  width: 80%;
-  position: relative;
-  left: 100px;
+  width: 90%;
+  border-radius: 20px;
+}
+#section01_market .video-mk {
+  height: 300px;
+  width: auto;
+  border-radius: 20px;
+  margin: 20px;
 }
 
-#recuadro-mk02 {
+#section02_market {
   background-color: #f6a862;
-  margin: 10px;
-  border-radius: 25px;
-  height: 350px;
-  width: 80%;
-  position: relative;
-  left: 100px;
+  width: 90%;
+  border-radius: 20px;
 }
-
-.video-mk01 {
-  position: absolute;
+#section02_market .video-mk {
   height: 300px;
-  z-index: 10;
-  margin-top: 2%;
-  margin-left: 12%;
+  width: auto;
+  margin: 20px;
   border-radius: 20px;
 }
 
-.video-mk02 {
-  position: absolute;
-  height: 300px;
-  z-index: 10;
-  margin-top: 2%;
-  margin-left: 37%;
-  border-radius: 20px;
+@media (max-width: 401px) {
+  #section01_market .video-mk {
+    height: auto;
+    width: 80%;
+  }
+  #section02_market .video-mk {
+    height: auto;
+    width: 80%;
+  }
+  h6 {
+    font-size: 30px;
+  }
 }
-
-.video-mk03 {
-  position: absolute;
-  height: 300px;
-  z-index: 10;
-  margin-top: 2%;
-  margin-left: 62%;
-  border-radius: 20px;
+/*media querrie - mobile first*/
+@media only screen and (min-width: 992px) {
+  #main_marketplace {
+    width: auto;
+    background-color: #dfdfdf;
+  }
+  #main_marketplace img {
+    width: 500px;
+  }
+  #main_marketplace h3 {
+    font-size: 48px;
+  }
 }
-
-.video-mk04 {
-  position: absolute;
-  height: 300px;
-  z-index: 10;
-  margin-top: 2%;
-  margin-left: 12%;
-  border-radius: 20px;
-}
-
-.video-mk05 {
-  position: absolute;
-  height: 300px;
-  z-index: 10;
-  margin-top: 2%;
-  margin-left: 37%;
-  border-radius: 20px;
-}
-
-.video-mk06 {
-  position: absolute;
-  height: 300px;
-  z-index: 10;
-  margin-top: 2%;
-  margin-left: 62%;
-  border-radius: 20px;
-}
-
 /* Estilos para Contacto */
 #main_contact {
   padding-top: 20px;
