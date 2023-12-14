@@ -22,6 +22,13 @@ $color5: #333331;
 $font1: dstype, Geneva, Tahoma, sans-serif;
 $font2: pixeled, Geneva, Tahoma, sans-serif;
 
+//CONDICIONALES
+
+$ancho: 200px;
+$alto: 300px;
+$margin: 20px;
+
+
 /*Reset*/
 * {
     margin: 0;
@@ -44,7 +51,7 @@ nav{
 
 #hero{
     background-color: $color3;
-    margin-top: 20px;
+    margin-top: $margin;
 }
 
 #hero_img{
@@ -52,12 +59,12 @@ nav{
     background-image: url(../images/NFT_back.png);
     border-radius: 10px;
     background-size: cover;
-    height: 300px;
+    height: $alto;
 }
 
 @media (max-width: 991px) {
     #hero_img{
-        margin: 20px;
+        margin: $margin;
         width: 90%;
         background-position: center;
     }
@@ -104,7 +111,7 @@ h2{
 /* Estilos para Sections*/
 
 #img01 {
-    height: 400px;
+    height: $alto+100;
     width: auto;
 }
 
@@ -138,18 +145,10 @@ h2{
 }
 }
 
-@media (max-width: 991px) {
-    #section01{
-        margin: 10px;
-    }
-    #section02-texto{
-        margin-top: 10px;
-    }
-}
-
 #recuadro {
     background-color: $color1;
     border-radius: 25px;
+    height: $alto+100;
 }
 
 #imgdigital {
@@ -160,7 +159,7 @@ h2{
 }
 
 h4 {
-    color: $color3;
+    color: $color4;
     font-size: 24px;
 }
 
@@ -181,6 +180,19 @@ h4 {
     background-color: $color3;
     color: white;
 }
+}
+
+@media (max-width: 991px) {
+    #section01{
+        margin: $margin/2;
+    }
+    #section02-texto{
+        margin-top: 10px;
+    }
+    #recuadro{
+        height: auto;
+    }
+
 }
 
 @import "_footer";

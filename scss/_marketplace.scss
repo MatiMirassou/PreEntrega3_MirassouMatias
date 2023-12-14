@@ -19,7 +19,7 @@
 h6 {
     color: $color3;
     font-size: 60px;
-    margin: 20px;
+    margin: $margin;
 }
 
 #section01_market{
@@ -27,10 +27,10 @@ h6 {
     width: 90%;
     border-radius: 20px;
     .video-mk {
-        height: 300px;
+        height: $alto;
         width: auto;
         border-radius: 20px;
-        margin: 20px;
+        margin: $margin;
     }
 }
 
@@ -39,9 +39,9 @@ h6 {
     width: 90%;
     border-radius: 20px;
     .video-mk {
-        height: 300px;
+        height: $alto;
         width: auto;
-        margin: 20px;
+        margin: $margin;
         border-radius: 20px;
 }
 }
@@ -72,7 +72,7 @@ h6 {
         width: auto;
         background-color: $color4;
         img{
-            width: 500px;
+            width: $ancho*2;
         }
         h3{
             font-size: 48px;
